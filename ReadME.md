@@ -1,7 +1,3 @@
-Sure, I'll help you improve the readability of your README file for the `mdtohtml` repository:
-
----
-
 # Markdown to HTML Converter
 
 ## Introduction
@@ -24,6 +20,12 @@ To use this converter tool, follow these steps:
 
    ```bash
    ./app
+   ```
+
+   or open in browser
+
+   ```bash
+   http://127.0.0.1:3000/?token=
    ```
 
 3. **Enter the Token**
