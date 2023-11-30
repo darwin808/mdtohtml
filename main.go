@@ -143,9 +143,8 @@ func handleData(c *fiber.Ctx) error {
 
 		formattedItem := map[string]interface{}{
 			"item": map[string]interface{}{
-				"zuid":     item.Meta.ZUID,
-				"content":  content,
-				"markdown": mdFIle,
+				"zuid":    item.Meta.ZUID,
+				"content": content,
 			},
 		}
 		formattedData = append(formattedData, formattedItem)
